@@ -1,0 +1,32 @@
+Git-created to track changes to a project and to help people collaborate on a project,
+  - originally created on linux kernal
+Commit - everytime you make a change on the project, to look at the different versions of it and track the history 
+Can also connect with Git GUI client rather than Terminal **\
+  - but Git GUI client used for managing files and looking at the files, work in text editor
+$Clear - to clear the git command line
+pwd - path to current directory
+ls - list visible files and directories
+ls-a - list hidden and visible files and directories
+cd - change directory to someother location
+mkdir <directory_name> - to create a directory
+
+Setting Git Configurations
+git config --global --list  = list the variables in the global git configuration file and their values
+git config --global user.name "Name"
+git config --global user.email "Email"
+
+Create a Text File in the folder by opening it in the TextEdit
+
+
+Local Repositories - repo that is stored on a computer
+remote repository - repo hosted on a hosting service ex: gitlab, github, bitbucket
+git init - initialize a git repo
+
+git status - status of the repo with how many commits there are 
+
+
+Making A Commit
+commit - represents one verison of the project 
+git add <filename> - add one file to the staging area
+git add <filename><filename> - add multiple files
+git add -A - add all the files 
